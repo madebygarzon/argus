@@ -1,4 +1,4 @@
-import { Home, Settings, BarChart3, History, MessageSquare, User } from "lucide-react";
+import { Home, Settings, BarChart3, History, MessageSquare, User, Bug } from "lucide-react";
 
 // Navigation configuration for dashboard routes
 export const dashboardNav = [
@@ -6,6 +6,7 @@ export const dashboardNav = [
   { label: "Ajustes", href: "/dashboard/ajustes", icon: Settings },
   { label: "Métricas", href: "/dashboard/metricas", icon: BarChart3 },
   { label: "Históricos", href: "/dashboard/historicos", icon: History },
+  { label: "Tests", href: "/dashboard/tests", icon: Bug },
   { label: "Chat", href: "/dashboard/chat", icon: MessageSquare },
   { label: "Perfil", href: "/dashboard/perfil", icon: User },
 ] as const;
